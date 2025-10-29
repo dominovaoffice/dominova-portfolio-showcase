@@ -5,6 +5,18 @@ import ContactCTA from "@/components/ContactCTA";
 import { Brain, Code, TestTube, Presentation } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
+// Import NEXORA 2K25 event images
+import nexoraAwardCeremony1 from "@/assets/events/nexora-award-ceremony-1.jpg";
+import nexoraAwardCeremony2 from "@/assets/events/nexora-award-ceremony-2.jpg";
+import nexoraAwardCeremony3 from "@/assets/events/nexora-award-ceremony-3.jpg";
+import nexoraPresentationHall from "@/assets/events/nexora-presentation-hall.jpg";
+import nexoraPanelSession from "@/assets/events/nexora-panel-session.jpg";
+import nexoraAuditoriumView from "@/assets/events/nexora-auditorium-view.jpg";
+import nexoraTeamCertificate from "@/assets/events/nexora-team-certificate.jpg";
+import nexoraSpeakerMoment from "@/assets/events/nexora-speaker-moment.jpg";
+import nexoraStudentsEngaged from "@/assets/events/nexora-students-engaged.jpg";
+import nexoraPythonTraining from "@/assets/events/nexora-python-training.jpg";
+
 
 const Index = () => {
   const events = [
@@ -19,7 +31,18 @@ const Index = () => {
         "Led by B Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Overwhelmingly positive student feedback and engagement"
       ],
-      images: [],
+      images: [
+        nexoraAwardCeremony1,
+        nexoraAwardCeremony2,
+        nexoraAwardCeremony3,
+        nexoraPresentationHall,
+        nexoraPanelSession,
+        nexoraAuditoriumView,
+        nexoraTeamCertificate,
+        nexoraSpeakerMoment,
+        nexoraStudentsEngaged,
+        nexoraPythonTraining
+      ],
       stats: [
         { label: "Students", value: "800+" },
         { label: "Hours", value: "3" },
