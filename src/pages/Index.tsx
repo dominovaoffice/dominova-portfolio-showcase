@@ -5,31 +5,6 @@ import ContactCTA from "@/components/ContactCTA";
 import { Brain, Code, TestTube, Presentation } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
-// Import event images
-import nexoraWorkshop1 from "@/assets/events/nexora-workshop-1.jpg";
-import nexoraWorkshop2 from "@/assets/events/nexora-workshop-2.jpg";
-import nexoraAward from "@/assets/events/nexora-award.jpg";
-import nexoraAuditorium from "@/assets/events/nexora-auditorium.jpg";
-import simatsBuilding from "@/assets/events/simats-building.jpg";
-import deepakPortrait from "@/assets/events/deepak-portrait.jpg";
-import secAward from "@/assets/events/sec-award.jpg";
-import secAward2 from "@/assets/events/sec-award-2.jpg";
-import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
-import panelDiscussion from "@/assets/events/panel-discussion.jpg";
-import manojPresentation from "@/assets/events/manoj-presentation.jpg";
-import classroomStudents from "@/assets/events/classroom-students.jpg";
-import interactiveSession from "@/assets/events/interactive-session.jpg";
-import guestLecture from "@/assets/events/guest-lecture.jpg";
-import liveDemo from "@/assets/events/live-demo.jpg";
-import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
-import teamAward1 from "@/assets/events/team-award-1.jpg";
-import teamAward2 from "@/assets/events/team-award-2.jpg";
-import teamGroup from "@/assets/events/team-group.jpg";
-import technicalPresentation from "@/assets/events/technical-presentation.jpg";
-import mentoringSession from "@/assets/events/mentoring-session.jpg";
-import pythonWorkshop from "@/assets/events/python-workshop.jpg";
-import labTraining from "@/assets/events/lab-training.jpg";
-import workshopActivity from "@/assets/events/workshop-activity.jpg";
 
 const Index = () => {
   const events = [
@@ -44,12 +19,12 @@ const Index = () => {
         "Led by B Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Overwhelmingly positive student feedback and engagement"
       ],
-      images: [manojPresentation, nexoraWorkshop1, labTraining, workshopActivity],
+      images: [],
       stats: [
         { label: "Students", value: "800+" },
         { label: "Hours", value: "3" },
         { label: "Topics", value: "2" },
-        { label: "Trainers", value: "3" }
+        { label: "Trainers", value: "16+" }
       ]
     },
     {
@@ -63,12 +38,12 @@ const Index = () => {
         "Real-world testing scenarios and case studies",
         "Interactive Q&A and hands-on demonstrations"
       ],
-      images: [guestLecture, pythonWorkshop, classroomStudents, interactiveSession],
+      images: [],
       stats: [
         { label: "Duration", value: "2 hrs" },
         { label: "Topics", value: "URD + Agile" },
         { label: "Engagement", value: "High" },
-        { label: "Speaker", value: "B Deepak" }
+        { label: "Trainers", value: "16+" }
       ]
     },
     {
@@ -82,10 +57,10 @@ const Index = () => {
         "Constructive feedback and mentorship for participants",
         "Recognition of innovative student solutions"
       ],
-      images: [teamAward1, teamAward2, teamGroup, auditoriumSetup],
+      images: [],
       stats: [
         { label: "Projects", value: "50+" },
-        { label: "Evaluators", value: "3" },
+        { label: "Evaluators", value: "16+" },
         { label: "Level", value: "National" },
         { label: "College", value: "SEC" }
       ]
@@ -101,12 +76,12 @@ const Index = () => {
         "One-on-one mentoring sessions with students",
         "Success stories from mentored teams advancing to finals"
       ],
-      images: [mentoringSession, liveDemo, nexoraPresentation, panelDiscussion],
+      images: [],
       stats: [
         { label: "Students", value: "100+" },
         { label: "Sessions", value: "Multiple" },
         { label: "Success Rate", value: "High" },
-        { label: "Mentors", value: "3" }
+        { label: "Trainers", value: "16+" }
       ]
     }
   ];
@@ -175,7 +150,7 @@ const Index = () => {
               <span className="text-primary">Services</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive IT training and guidance tailored for engineering excellence
+              Comprehensive IT training and guidance tailored for engineering excellence. We're ready to conduct workshops on any topics with our team of 16+ expert trainers.
             </p>
           </div>
 
