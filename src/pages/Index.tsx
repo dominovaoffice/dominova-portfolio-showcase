@@ -16,6 +16,16 @@ import secAward from "@/assets/events/sec-award.jpg";
 import secAward2 from "@/assets/events/sec-award-2.jpg";
 import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
 import panelDiscussion from "@/assets/events/panel-discussion.jpg";
+import manojPresentation from "@/assets/events/manoj-presentation.jpg";
+import classroomStudents from "@/assets/events/classroom-students.jpg";
+import interactiveSession from "@/assets/events/interactive-session.jpg";
+import guestLecture from "@/assets/events/guest-lecture.jpg";
+import liveDemo from "@/assets/events/live-demo.jpg";
+import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
+import teamAward1 from "@/assets/events/team-award-1.jpg";
+import teamAward2 from "@/assets/events/team-award-2.jpg";
+import teamGroup from "@/assets/events/team-group.jpg";
+import technicalPresentation from "@/assets/events/technical-presentation.jpg";
 
 const Index = () => {
   const events = [
@@ -30,7 +40,7 @@ const Index = () => {
         "Led by B Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Overwhelmingly positive student feedback and engagement"
       ],
-      images: [nexoraAuditorium, nexoraWorkshop1, nexoraWorkshop2, nexoraAward],
+      images: [manojPresentation, classroomStudents, interactiveSession, auditoriumSetup],
       stats: [
         { label: "Students", value: "800+" },
         { label: "Hours", value: "3" },
@@ -49,7 +59,7 @@ const Index = () => {
         "Real-world testing scenarios and case studies",
         "Interactive Q&A and hands-on demonstrations"
       ],
-      images: [deepakPortrait, nexoraPresentation, panelDiscussion, simatsBuilding],
+      images: [guestLecture, liveDemo, deepakPortrait, nexoraPresentation],
       stats: [
         { label: "Duration", value: "2 hrs" },
         { label: "Topics", value: "URD + Agile" },
@@ -68,7 +78,7 @@ const Index = () => {
         "Constructive feedback and mentorship for participants",
         "Recognition of innovative student solutions"
       ],
-      images: [secAward, secAward2, panelDiscussion, nexoraAward],
+      images: [teamAward1, teamAward2, teamGroup, secAward],
       stats: [
         { label: "Projects", value: "50+" },
         { label: "Evaluators", value: "3" },
@@ -87,7 +97,7 @@ const Index = () => {
         "One-on-one mentoring sessions with students",
         "Success stories from mentored teams advancing to finals"
       ],
-      images: [nexoraWorkshop1, nexoraWorkshop2, panelDiscussion, secAward],
+      images: [technicalPresentation, panelDiscussion, nexoraWorkshop1, secAward2],
       stats: [
         { label: "Students", value: "100+" },
         { label: "Sessions", value: "Multiple" },
