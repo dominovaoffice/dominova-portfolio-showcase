@@ -26,6 +26,10 @@ import teamAward1 from "@/assets/events/team-award-1.jpg";
 import teamAward2 from "@/assets/events/team-award-2.jpg";
 import teamGroup from "@/assets/events/team-group.jpg";
 import technicalPresentation from "@/assets/events/technical-presentation.jpg";
+import mentoringSession from "@/assets/events/mentoring-session.jpg";
+import pythonWorkshop from "@/assets/events/python-workshop.jpg";
+import labTraining from "@/assets/events/lab-training.jpg";
+import workshopActivity from "@/assets/events/workshop-activity.jpg";
 
 const Index = () => {
   const events = [
@@ -40,7 +44,7 @@ const Index = () => {
         "Led by B Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Overwhelmingly positive student feedback and engagement"
       ],
-      images: [manojPresentation, classroomStudents, interactiveSession, auditoriumSetup],
+      images: [manojPresentation, nexoraWorkshop1, labTraining, workshopActivity],
       stats: [
         { label: "Students", value: "800+" },
         { label: "Hours", value: "3" },
@@ -59,7 +63,7 @@ const Index = () => {
         "Real-world testing scenarios and case studies",
         "Interactive Q&A and hands-on demonstrations"
       ],
-      images: [guestLecture, liveDemo, deepakPortrait, nexoraPresentation],
+      images: [guestLecture, pythonWorkshop, classroomStudents, interactiveSession],
       stats: [
         { label: "Duration", value: "2 hrs" },
         { label: "Topics", value: "URD + Agile" },
@@ -78,7 +82,7 @@ const Index = () => {
         "Constructive feedback and mentorship for participants",
         "Recognition of innovative student solutions"
       ],
-      images: [teamAward1, teamAward2, teamGroup, secAward],
+      images: [teamAward1, teamAward2, teamGroup, auditoriumSetup],
       stats: [
         { label: "Projects", value: "50+" },
         { label: "Evaluators", value: "3" },
@@ -97,7 +101,7 @@ const Index = () => {
         "One-on-one mentoring sessions with students",
         "Success stories from mentored teams advancing to finals"
       ],
-      images: [technicalPresentation, panelDiscussion, nexoraWorkshop1, secAward2],
+      images: [mentoringSession, liveDemo, nexoraPresentation, panelDiscussion],
       stats: [
         { label: "Students", value: "100+" },
         { label: "Sessions", value: "Multiple" },
