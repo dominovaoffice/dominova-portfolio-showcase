@@ -114,25 +114,25 @@ const Index = () => {
   const testimonials = [
     {
       quote: "The AI workshop by DOMINOVA was transformative! We built a functioning app in just 3 hours. The hands-on approach made complex concepts incredibly accessible.",
-      author: "Priya Sharma",
-      role: "Student",
+      author: "Student",
+      role: "Engineering Student",
       institution: "SIMATS Engineering College"
     },
     {
       quote: "B Deepak's testing lecture provided practical insights I've never encountered before. The URD and Agile methodologies are now core to my skill set.",
-      author: "Rajesh Kumar",
+      author: "Student",
       role: "Final Year Student",
       institution: "PEC"
     },
     {
       quote: "The hackathon evaluation team's feedback was invaluable. Their expertise helped us refine our project and think like professionals.",
-      author: "Ananya Reddy",
+      author: "Student",
       role: "Hackathon Participant",
       institution: "Saveetha Engineering College"
     },
     {
       quote: "DOMINOVA's presentation guidance transformed how we pitch our ideas. We learned to tell compelling stories that resonate with judges and investors.",
-      author: "Karthik Menon",
+      author: "Student",
       role: "Team Lead",
       institution: "Saveetha Engineering College"
     }
