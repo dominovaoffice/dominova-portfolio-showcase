@@ -6,24 +6,18 @@ import { Brain, Code, TestTube, Presentation } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
 // Import event images
-import nexoraWorkshop1 from "@/assets/events/nexora-workshop-1.jpg";
-import nexoraWorkshop2 from "@/assets/events/nexora-workshop-2.jpg";
-import nexoraAward from "@/assets/events/nexora-award.jpg";
-import nexoraAuditorium from "@/assets/events/nexora-auditorium.jpg";
-import simatsBuilding from "@/assets/events/simats-building.jpg";
-import deepakPortrait from "@/assets/events/deepak-portrait.jpg";
-import secAward from "@/assets/events/sec-award.jpg";
-import secAward2 from "@/assets/events/sec-award-2.jpg";
+import nexoraPanelSession from "@/assets/events/nexora-panel-session.jpg";
+import nexoraAwardCeremony from "@/assets/events/nexora-award-ceremony.jpg";
+import nexoraSpeakerOutdoor from "@/assets/events/nexora-speaker-outdoor.jpg";
+import nexoraAuditoriumSetup from "@/assets/events/nexora-auditorium-setup.jpg";
+import nexoraLivePresentation from "@/assets/events/nexora-live-presentation.jpg";
 import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
 import panelDiscussion from "@/assets/events/panel-discussion.jpg";
-import manojPresentation from "@/assets/events/manoj-presentation.jpg";
 import teamAward1 from "@/assets/events/team-award-1.jpg";
 import teamAward2 from "@/assets/events/team-award-2.jpg";
 import teamGroup from "@/assets/events/team-group.jpg";
 import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
 import mentoringSession from "@/assets/events/mentoring-session.jpg";
-import labTraining from "@/assets/events/lab-training.jpg";
-import workshopActivity from "@/assets/events/workshop-activity.jpg";
 import pecLecture1 from "@/assets/events/pec-lecture-1.jpg";
 import pecLecture2 from "@/assets/events/pec-lecture-2.jpg";
 import pecLecture3 from "@/assets/events/pec-lecture-3.jpg";
@@ -43,7 +37,7 @@ const Index = () => {
         "Led by B Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Overwhelmingly positive student feedback and engagement"
       ],
-      images: [manojPresentation, nexoraWorkshop1, labTraining, workshopActivity],
+      images: [nexoraPanelSession, nexoraAwardCeremony, nexoraSpeakerOutdoor, nexoraAuditoriumSetup, nexoraLivePresentation],
       stats: [
         { label: "Students", value: "800+" },
         { label: "Hours", value: "3" },
