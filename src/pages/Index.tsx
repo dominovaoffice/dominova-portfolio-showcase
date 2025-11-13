@@ -17,19 +17,18 @@ import secAward2 from "@/assets/events/sec-award-2.jpg";
 import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
 import panelDiscussion from "@/assets/events/panel-discussion.jpg";
 import manojPresentation from "@/assets/events/manoj-presentation.jpg";
-import classroomStudents from "@/assets/events/classroom-students.jpg";
-import interactiveSession from "@/assets/events/interactive-session.jpg";
-import guestLecture from "@/assets/events/guest-lecture.jpg";
-import liveDemo from "@/assets/events/live-demo.jpg";
-import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
 import teamAward1 from "@/assets/events/team-award-1.jpg";
 import teamAward2 from "@/assets/events/team-award-2.jpg";
 import teamGroup from "@/assets/events/team-group.jpg";
-import technicalPresentation from "@/assets/events/technical-presentation.jpg";
+import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
 import mentoringSession from "@/assets/events/mentoring-session.jpg";
-import pythonWorkshop from "@/assets/events/python-workshop.jpg";
 import labTraining from "@/assets/events/lab-training.jpg";
 import workshopActivity from "@/assets/events/workshop-activity.jpg";
+import pecLecture1 from "@/assets/events/pec-lecture-1.jpg";
+import pecLecture2 from "@/assets/events/pec-lecture-2.jpg";
+import pecLecture3 from "@/assets/events/pec-lecture-3.jpg";
+import pecLecture4 from "@/assets/events/pec-lecture-4.jpg";
+import pecLecture5 from "@/assets/events/pec-lecture-5.jpg";
 
 const Index = () => {
   const events = [
@@ -63,12 +62,12 @@ const Index = () => {
         "Real-world testing scenarios and case studies",
         "Interactive Q&A and hands-on demonstrations"
       ],
-      images: [guestLecture, pythonWorkshop, classroomStudents, interactiveSession],
+      images: [pecLecture1, pecLecture2, pecLecture3, pecLecture4, pecLecture5],
       stats: [
         { label: "Duration", value: "2 hrs" },
         { label: "Topics", value: "URD + Agile" },
         { label: "Engagement", value: "High" },
-        { label: "Speaker", value: "B Deepak" }
+        { label: "Trainers", value: "16+" }
       ]
     },
     {
@@ -101,7 +100,7 @@ const Index = () => {
         "One-on-one mentoring sessions with students",
         "Success stories from mentored teams advancing to finals"
       ],
-      images: [mentoringSession, liveDemo, nexoraPresentation, panelDiscussion],
+      images: [mentoringSession, nexoraPresentation, panelDiscussion, auditoriumSetup],
       stats: [
         { label: "Students", value: "100+" },
         { label: "Sessions", value: "Multiple" },
@@ -141,23 +140,23 @@ const Index = () => {
   const services = [
     {
       icon: Brain,
-      title: "AI Workshops",
-      description: "Cutting-edge AI training with hands-on project building"
+      title: "Workshops on All Domains",
+      description: "Expert training across AI, Python, Web Development, Cloud, and more"
     },
     {
       icon: Code,
-      title: "Python Training",
-      description: "Comprehensive Python programming for real-world applications"
+      title: "Student Internships",
+      description: "Real-world internship opportunities to gain industry experience"
     },
     {
       icon: TestTube,
-      title: "Testing Methodologies",
-      description: "Professional testing practices from URD to Agile"
+      title: "Technical Training",
+      description: "Hands-on training in cutting-edge technologies and methodologies"
     },
     {
       icon: Presentation,
       title: "Hackathon Guidance",
-      description: "Mentorship for presentations and project evaluations"
+      description: "Expert mentorship for presentations, evaluations, and project success"
     }
   ];
 
