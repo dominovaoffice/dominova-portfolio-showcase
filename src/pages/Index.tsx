@@ -13,9 +13,11 @@ import nexoraAuditoriumSetup from "@/assets/events/nexora-auditorium-setup.jpg";
 import nexoraLivePresentation from "@/assets/events/nexora-live-presentation.jpg";
 import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
 import panelDiscussion from "@/assets/events/panel-discussion.jpg";
-import teamAward1 from "@/assets/events/team-award-1.jpg";
-import teamAward2 from "@/assets/events/team-award-2.jpg";
-import teamGroup from "@/assets/events/team-group.jpg";
+import secEvaluation1 from "@/assets/events/sec-evaluation-1.jpg";
+import secEvaluation2 from "@/assets/events/sec-evaluation-2.jpg";
+import secEvaluation3 from "@/assets/events/sec-evaluation-3.jpg";
+import secEvaluation4 from "@/assets/events/sec-evaluation-4.jpg";
+import secEvaluation5 from "@/assets/events/sec-evaluation-5.jpg";
 import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
 import mentoringSession from "@/assets/events/mentoring-session.jpg";
 import pecLecture1 from "@/assets/events/pec-lecture-1.jpg";
@@ -75,7 +77,7 @@ const Index = () => {
         "Constructive feedback and mentorship for participants",
         "Recognition of innovative student solutions"
       ],
-      images: [teamAward1, teamAward2, teamGroup, auditoriumSetup],
+      images: [secEvaluation1, secEvaluation2, secEvaluation3, secEvaluation4, secEvaluation5],
       stats: [
         { label: "Projects", value: "50+" },
         { label: "Evaluators", value: "3" },
