@@ -18,8 +18,11 @@ import secEvaluation2 from "@/assets/events/sec-evaluation-2.jpg";
 import secEvaluation3 from "@/assets/events/sec-evaluation-3.jpg";
 import secEvaluation4 from "@/assets/events/sec-evaluation-4.jpg";
 import secEvaluation5 from "@/assets/events/sec-evaluation-5.jpg";
-import auditoriumSetup from "@/assets/events/auditorium-setup.jpg";
-import mentoringSession from "@/assets/events/mentoring-session.jpg";
+import secGuidance1 from "@/assets/events/sec-guidance-1.jpg";
+import secGuidance2 from "@/assets/events/sec-guidance-2.jpg";
+import secGuidance3 from "@/assets/events/sec-guidance-3.jpg";
+import secGuidance4 from "@/assets/events/sec-guidance-4.jpg";
+import secGuidance5 from "@/assets/events/sec-guidance-5.jpg";
 import pecLecture1 from "@/assets/events/pec-lecture-1.jpg";
 import pecLecture2 from "@/assets/events/pec-lecture-2.jpg";
 import pecLecture3 from "@/assets/events/pec-lecture-3.jpg";
@@ -96,7 +99,7 @@ const Index = () => {
         "One-on-one mentoring sessions with students",
         "Success stories from mentored teams advancing to finals"
       ],
-      images: [mentoringSession, nexoraPresentation, panelDiscussion, auditoriumSetup],
+      images: [secGuidance1, secGuidance2, secGuidance3, secGuidance4, secGuidance5],
       stats: [
         { label: "Students", value: "100+" },
         { label: "Sessions", value: "Multiple" },
