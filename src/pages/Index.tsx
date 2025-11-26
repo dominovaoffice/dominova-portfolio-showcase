@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import EventCard from "@/components/EventCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import ContactCTA from "@/components/ContactCTA";
-import { Brain, Code, TestTube, Presentation } from "lucide-react";
+import { Brain, Code, TestTube, Presentation, Briefcase, Award, GraduationCap, Users } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
 // Import event images
@@ -143,12 +143,12 @@ const Index = () => {
       description: "Expert training across AI, Python, Web Development, Cloud, and more"
     },
     {
-      icon: TestTube,
+      icon: Briefcase,
       title: "Industry Relevant Training",
       description: "Practical training aligned with current industry standards and demands"
     },
     {
-      icon: Brain,
+      icon: Award,
       title: "Certification Programs",
       description: "Professional certification courses to boost your career prospects"
     },
@@ -163,12 +163,12 @@ const Index = () => {
       description: "Expert mentorship for presentations, evaluations, and project success"
     },
     {
-      icon: Brain,
+      icon: GraduationCap,
       title: "Career Support",
       description: "Comprehensive guidance for interview preparation and career planning"
     },
     {
-      icon: Brain,
+      icon: Users,
       title: "Expert Mentorship",
       description: "One-on-one mentoring from industry experts with years of experience"
     },
