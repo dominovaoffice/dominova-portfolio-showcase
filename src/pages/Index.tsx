@@ -143,9 +143,14 @@ const Index = () => {
       description: "Expert training across AI, Python, Web Development, Cloud, and more"
     },
     {
-      icon: Code,
-      title: "Student Internships",
-      description: "Real-world internship opportunities to gain industry experience"
+      icon: TestTube,
+      title: "Industry Relevant Training",
+      description: "Practical training aligned with current industry standards and demands"
+    },
+    {
+      icon: Brain,
+      title: "Certification Programs",
+      description: "Professional certification courses to boost your career prospects"
     },
     {
       icon: TestTube,
@@ -156,6 +161,21 @@ const Index = () => {
       icon: Presentation,
       title: "Hackathon Guidance",
       description: "Expert mentorship for presentations, evaluations, and project success"
+    },
+    {
+      icon: Brain,
+      title: "Career Support",
+      description: "Comprehensive guidance for interview preparation and career planning"
+    },
+    {
+      icon: Brain,
+      title: "Expert Mentorship",
+      description: "One-on-one mentoring from industry experts with years of experience"
+    },
+    {
+      icon: Code,
+      title: "Student Internships",
+      description: "Real-world internship opportunities to gain industry experience"
     }
   ];
 
@@ -177,7 +197,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => (
               <div
                 key={index}
