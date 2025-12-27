@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import EventCard from "@/components/EventCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import ContactCTA from "@/components/ContactCTA";
-import QuantumForgeShowcase from "@/components/QuantumForgeShowcase";
 import { Brain, Code, TestTube, Presentation, Briefcase, Award, GraduationCap, Users } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
@@ -12,8 +11,11 @@ import nexoraAwardCeremony from "@/assets/events/nexora-award-ceremony.jpg";
 import nexoraSpeakerOutdoor from "@/assets/events/nexora-speaker-outdoor.jpg";
 import nexoraAuditoriumSetup from "@/assets/events/nexora-auditorium-setup.jpg";
 import nexoraLivePresentation from "@/assets/events/nexora-live-presentation.jpg";
-import nexoraPresentation from "@/assets/events/nexora-presentation.jpg";
-import panelDiscussion from "@/assets/events/panel-discussion.jpg";
+import quantumForge1 from "@/assets/events/quantum-forge-1.jpg";
+import quantumForge2 from "@/assets/events/quantum-forge-2.jpg";
+import quantumForge3 from "@/assets/events/quantum-forge-3.jpg";
+import quantumForge4 from "@/assets/events/quantum-forge-4.jpg";
+import quantumForge5 from "@/assets/events/quantum-forge-5.jpg";
 import secEvaluation1 from "@/assets/events/sec-evaluation-1.jpg";
 import secEvaluation2 from "@/assets/events/sec-evaluation-2.jpg";
 import secEvaluation3 from "@/assets/events/sec-evaluation-3.jpg";
@@ -32,6 +34,26 @@ import pecLecture5 from "@/assets/events/pec-lecture-5.jpg";
 
 const Index = () => {
   const events = [
+    {
+      title: "QUANTUM FORGE",
+      subtitle: "Hackathon & AI Workshop at Sathyabama Institute",
+      description: "A high-impact technical event combining hackathon strategy training and hands-on AI tool exposure. The event focused on building real-world problem-solving skills, innovation mindset, and practical AI applications through guided sessions and live competition.",
+      highlights: [
+        "Hackathon-focused morning session covering problem understanding, solution structuring, and execution strategies",
+        "Evening session on modern AI tools with hands-on learning and real-time application",
+        "Live team-based competition with practical AI usage",
+        "Prizes awarded to First, Second, and Third place teams",
+        "Led by B. Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
+        "Successfully coordinated with TechLora, with on-ground event management support by Krish and the TechLora team"
+      ],
+      images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
+      stats: [
+        { label: "Institution", value: "1" },
+        { label: "Full-Day Event", value: "1" },
+        { label: "Core Sessions", value: "2" },
+        { label: "Trainers", value: "3" }
+      ]
+    },
     {
       title: "NEXORA 2K25",
       subtitle: "AI & Python Workshop at SIMATS",
@@ -213,9 +235,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* Quantum Forge Showcase */}
-      <QuantumForgeShowcase />
 
       {/* Events Section */}
       <section id="events" className="py-20">
