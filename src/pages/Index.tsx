@@ -35,26 +35,6 @@ import pecLecture5 from "@/assets/events/pec-lecture-5.jpg";
 const Index = () => {
   const events = [
     {
-      title: "QUANTUM FORGE",
-      subtitle: "Hackathon & AI Workshop at Sathyabama Institute",
-      description: "A high-impact technical event combining hackathon strategy training and hands-on AI tool exposure. The event focused on building real-world problem-solving skills, innovation mindset, and practical AI applications through guided sessions and live competition.",
-      highlights: [
-        "Hackathon-focused morning session covering problem understanding, solution structuring, and execution strategies",
-        "Evening session on modern AI tools with hands-on learning and real-time application",
-        "Live team-based competition with practical AI usage",
-        "Prizes awarded to First, Second, and Third place teams",
-        "Led by B. Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
-        "Successfully coordinated with TechLora, with on-ground event management support by Krish and the TechLora team"
-      ],
-      images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
-      stats: [
-        { label: "Institution", value: "1" },
-        { label: "Full-Day Event", value: "1" },
-        { label: "Core Sessions", value: "2" },
-        { label: "Trainers", value: "3" }
-      ]
-    },
-    {
       title: "NEXORA 2K25",
       subtitle: "AI & Python Workshop at SIMATS",
       description: "A groundbreaking national-level symposium where we conducted comprehensive AI and Python workshops for 800+ students. Students learned to build real mobile apps and websites in just 3 hours using cutting-edge AI tools.",
@@ -71,25 +51,6 @@ const Index = () => {
         { label: "Hours", value: "3" },
         { label: "Topics", value: "2" },
         { label: "Trainers", value: "3" }
-      ]
-    },
-    {
-      title: "PEC Guest Lecture",
-      subtitle: "Comprehensive Testing Workshop",
-      description: "An in-depth guest lecture delivered by B Deepak covering testing methodologies from fundamentals to advanced concepts. Students gained practical insights into User Requirement Documents (URD) and Agile testing practices.",
-      highlights: [
-        "End-to-end testing methodology coverage",
-        "Deep dive into User Requirement Documents (URD)",
-        "Practical Agile testing techniques and best practices",
-        "Real-world testing scenarios and case studies",
-        "Interactive Q&A and hands-on demonstrations"
-      ],
-      images: [pecLecture1, pecLecture2, pecLecture3, pecLecture4, pecLecture5],
-      stats: [
-        { label: "Duration", value: "2 hrs" },
-        { label: "Topics", value: "URD + Agile" },
-        { label: "Engagement", value: "High" },
-        { label: "Trainers", value: "16+" }
       ]
     },
     {
@@ -128,6 +89,45 @@ const Index = () => {
         { label: "Sessions", value: "Multiple" },
         { label: "Success Rate", value: "High" },
         { label: "Mentors", value: "3" }
+      ]
+    },
+    {
+      title: "QUANTUM FORGE",
+      subtitle: "Hackathon & AI Workshop at Sathyabama Institute",
+      description: "A high-impact technical event combining hackathon strategy training and hands-on AI tool exposure. The event focused on building real-world problem-solving skills, innovation mindset, and practical AI applications through guided sessions and live competition.",
+      highlights: [
+        "Hackathon-focused morning session covering problem understanding, solution structuring, and execution strategies",
+        "Evening session on modern AI tools with hands-on learning and real-time application",
+        "Live team-based competition with practical AI usage",
+        "Prizes awarded to First, Second, and Third place teams",
+        "Led by B. Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
+        "Successfully coordinated with TechLora, with on-ground event management support by Krish and the TechLora team"
+      ],
+      images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
+      stats: [
+        { label: "Institution", value: "1" },
+        { label: "Full-Day Event", value: "1" },
+        { label: "Core Sessions", value: "2" },
+        { label: "Trainers", value: "3" }
+      ]
+    },
+    {
+      title: "PEC Guest Lecture",
+      subtitle: "Comprehensive Testing Workshop",
+      description: "An in-depth guest lecture delivered by B Deepak covering testing methodologies from fundamentals to advanced concepts. Students gained practical insights into User Requirement Documents (URD) and Agile testing practices.",
+      highlights: [
+        "End-to-end testing methodology coverage",
+        "Deep dive into User Requirement Documents (URD)",
+        "Practical Agile testing techniques and best practices",
+        "Real-world testing scenarios and case studies",
+        "Interactive Q&A and hands-on demonstrations"
+      ],
+      images: [pecLecture1, pecLecture2, pecLecture3, pecLecture4, pecLecture5],
+      stats: [
+        { label: "Duration", value: "2 hrs" },
+        { label: "Topics", value: "URD + Agile" },
+        { label: "Engagement", value: "High" },
+        { label: "Trainers", value: "16+" }
       ]
     }
   ];
