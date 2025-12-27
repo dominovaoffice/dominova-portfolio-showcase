@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import EventCard from "@/components/EventCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import ContactCTA from "@/components/ContactCTA";
+import QuantumForgeShowcase from "@/components/QuantumForgeShowcase";
 import { Brain, Code, TestTube, Presentation, Briefcase, Award, GraduationCap, Users } from "lucide-react";
 import dominovaLogo from "@/assets/dominova-logo.png";
 
@@ -212,6 +213,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Quantum Forge Showcase */}
+      <QuantumForgeShowcase />
 
       {/* Events Section */}
       <section id="events" className="py-20">
