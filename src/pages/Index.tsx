@@ -103,7 +103,7 @@ const Index = () => {
         "Led by B. Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
         "Successfully coordinated with TechLora, with on-ground event management support by Krish and the TechLora team"
       ],
-      images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
+      images: [quantumForge3, quantumForge1, quantumForge5, quantumForge2, quantumForge4],
       stats: [
         { label: "Institution", value: "1" },
         { label: "Full-Day Event", value: "1" },
