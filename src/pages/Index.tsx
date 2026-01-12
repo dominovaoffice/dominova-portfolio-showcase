@@ -106,10 +106,7 @@ const Index = () => {
       imageStyles: {
         0: "object-[center_30%]",
         2: "object-[center_30%]",
-        3: "-rotate-90 object-center scale-150"
-      },
-      imageContainerStyles: {
-        3: "col-span-2 h-48"
+        3: "-rotate-90 object-center"
       },
       stats: [
         { label: "Students", value: "100+" },
