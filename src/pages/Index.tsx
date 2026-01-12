@@ -104,9 +104,9 @@ const Index = () => {
       ],
       images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
       imageStyles: {
-        0: "object-[center_20%]",
-        2: "object-[center_20%]",
-        3: "rotate-90 object-center"
+        0: "object-[center_30%]",
+        2: "object-[center_30%]",
+        3: "-rotate-90 object-center"
       },
       stats: [
         { label: "Students", value: "100+" },
