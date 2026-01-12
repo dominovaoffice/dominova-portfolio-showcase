@@ -103,6 +103,11 @@ const Index = () => {
         "Coordinated with TechLora team for on-ground event management"
       ],
       images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
+      imageStyles: {
+        0: "object-top",
+        2: "object-top",
+        3: "rotate-90"
+      },
       stats: [
         { label: "Students", value: "100+" },
         { label: "Duration", value: "1 Day" },

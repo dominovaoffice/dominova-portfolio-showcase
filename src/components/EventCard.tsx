@@ -8,9 +8,10 @@ interface EventCardProps {
   highlights: string[];
   images: string[];
   stats?: { label: string; value: string }[];
+  imageStyles?: { [key: number]: string };
 }
 
-const EventCard = ({ title, subtitle, description, highlights, images, stats }: EventCardProps) => {
+const EventCard = ({ title, subtitle, description, highlights, images, stats, imageStyles }: EventCardProps) => {
   return (
     <Card className="overflow-hidden border-primary/20 bg-card hover:border-primary/50 transition-all duration-300 animate-fade-in">
       <div className="grid md:grid-cols-2 gap-6 p-6">
@@ -62,7 +63,7 @@ const EventCard = ({ title, subtitle, description, highlights, images, stats }: 
               <img
                 src={image}
                 alt={`${title} - Image ${index + 1}`}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 ${imageStyles?.[index] || ''}`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
