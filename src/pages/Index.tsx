@@ -14,7 +14,7 @@ import nexoraLivePresentation from "@/assets/events/nexora-live-presentation.jpg
 import quantumForge1 from "@/assets/events/quantum-forge-1.jpg";
 import quantumForge2 from "@/assets/events/quantum-forge-2.jpg";
 import quantumForge3 from "@/assets/events/quantum-forge-3.jpg";
-import quantumForge4 from "@/assets/events/quantum-forge-4.jpg";
+import quantumForge4 from "@/assets/events/quantum-forge-4-new.jpg";
 import quantumForge5 from "@/assets/events/quantum-forge-5.jpg";
 import secEvaluation1 from "@/assets/events/sec-evaluation-1.jpg";
 import secEvaluation2 from "@/assets/events/sec-evaluation-2.jpg";
@@ -105,8 +105,7 @@ const Index = () => {
       images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
       imageStyles: {
         0: "object-[center_30%]",
-        2: "object-[center_30%]",
-        3: "-rotate-90 object-center"
+        2: "object-[center_30%]"
       },
       stats: [
         { label: "Students", value: "100+" },
