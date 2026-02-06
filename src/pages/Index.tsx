@@ -31,6 +31,11 @@ import pecLecture2 from "@/assets/events/pec-lecture-2.jpg";
 import pecLecture3 from "@/assets/events/pec-lecture-3.jpg";
 import pecLecture4 from "@/assets/events/pec-lecture-4.jpg";
 import pecLecture5 from "@/assets/events/pec-lecture-5.jpg";
+import biBattle1 from "@/assets/events/bi-battle-1.jpg";
+import biBattle2 from "@/assets/events/bi-battle-2.jpg";
+import biBattle3 from "@/assets/events/bi-battle-3.jpg";
+import biBattle4 from "@/assets/events/bi-battle-4.jpg";
+import biBattle5 from "@/assets/events/bi-battle-5.jpg";
 
 const Index = () => {
   const events = [
@@ -131,6 +136,25 @@ const Index = () => {
         { label: "Topics", value: "URD + Agile" },
         { label: "Engagement", value: "High" },
         { label: "Trainers", value: "16+" }
+      ]
+    },
+    {
+      title: "BI BATTLE",
+      subtitle: "Power BI Workshop at Sathyabama Institute",
+      description: "On January 29, 2026, Ananya Sanjeev from Deloitte led an intensive Power BI training session at Sathyabama Institute. Students gained hands-on experience building dashboards, mastering data visualization techniques, and competed in an exciting quiz competition. B Deepak, the founder, also delivered career guidance sessions while fun interactive activities kept students fully engaged throughout the day.",
+      highlights: [
+        "Hands-on Power BI dashboard building and data visualization",
+        "Led by Ananya Sanjeev from Deloitte",
+        "Interactive quiz competition among students",
+        "Career guidance session by Founder B Deepak",
+        "Fun engagement activities to keep energy high"
+      ],
+      images: [biBattle1, biBattle2, biBattle3, biBattle4, biBattle5],
+      stats: [
+        { label: "Students", value: "200+" },
+        { label: "Duration", value: "1 Day" },
+        { label: "Trainers", value: "2" },
+        { label: "Dominova Reps", value: "2" }
       ]
     }
   ];
