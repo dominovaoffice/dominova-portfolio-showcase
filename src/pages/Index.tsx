@@ -11,11 +11,11 @@ import nexoraAwardCeremony from "@/assets/events/nexora-award-ceremony.jpg";
 import nexoraSpeakerOutdoor from "@/assets/events/nexora-speaker-outdoor.jpg";
 import nexoraAuditoriumSetup from "@/assets/events/nexora-auditorium-setup.jpg";
 import nexoraLivePresentation from "@/assets/events/nexora-live-presentation.jpg";
-import quantumForge1 from "@/assets/events/quantum-forge-1-new.jpg";
-import quantumForge2 from "@/assets/events/quantum-forge-2-new.jpg";
-import quantumForge3 from "@/assets/events/quantum-forge-3-new.jpg";
-import quantumForge4 from "@/assets/events/quantum-forge-deepak.jpg";
-import quantumForge5 from "@/assets/events/quantum-forge-powerbi.jpg";
+import quantumForge1 from "@/assets/events/quantum-forge-1.jpg";
+import quantumForge2 from "@/assets/events/quantum-forge-2.jpg";
+import quantumForge3 from "@/assets/events/quantum-forge-3.jpg";
+import quantumForge4 from "@/assets/events/quantum-forge-4-new.jpg";
+import quantumForge5 from "@/assets/events/quantum-forge-5.jpg";
 import secEvaluation1 from "@/assets/events/sec-evaluation-1.jpg";
 import secEvaluation2 from "@/assets/events/sec-evaluation-2.jpg";
 import secEvaluation3 from "@/assets/events/sec-evaluation-3.jpg";
@@ -94,21 +94,24 @@ const Index = () => {
     {
       title: "QUANTUM FORGE",
       subtitle: "Hackathon & AI Workshop at Sathyabama Institute",
-      description: "A high-impact technical event conducted at Sathyabama Institute of Science and Technology, combining structured hackathon training and hands-on AI tool exposure. The event focused on building real-world problem-solving skills, innovation mindset, and practical AI applications through guided sessions and interactive learning.",
+      description: "A high-impact technical event at Sathyabama Institute combining hackathon strategy training and hands-on AI tool exposure. Focused on building real-world problem-solving skills and practical AI applications.",
       highlights: [
-        "Morning hackathon session covering problem understanding, ideation, execution strategies, and team workflow",
-        "AI tools session led by Ananya Sanjeev (Deloitte), who trained students on AI fundamentals, practical applications, and tool-based workflows",
-        "Active involvement of Deepak (Founder, Dominova) as a guest speaker, providing career guidance, industry insights, and student mentoring during interactive sessions",
-        "Live quiz competition conducted after the technical sessions to reinforce learning",
-        "Fun and engagement activities conducted throughout the event to maintain high student participation and energy",
-        "Event coordination and on-ground management supported by the TechLora team, along with Dominova organizers"
+        "Hackathon morning session: problem understanding and execution strategies",
+        "Evening AI tools session with hands-on learning and real-time application",
+        "Live team-based competition with prizes for top 3 teams",
+        "Led by B. Deepak (Founder), Manikandan (Infosys), and Gauthaman (CTS)",
+        "Coordinated with TechLora team for on-ground event management"
       ],
       images: [quantumForge1, quantumForge2, quantumForge3, quantumForge4, quantumForge5],
+      imageStyles: {
+        0: "object-[center_30%]",
+        2: "object-[center_30%]"
+      },
       stats: [
         { label: "Students", value: "100+" },
         { label: "Duration", value: "1 Day" },
         { label: "Sessions", value: "2" },
-        { label: "Trainers & Organizers", value: "3" }
+        { label: "Trainers", value: "3" }
       ]
     },
     {
